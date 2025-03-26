@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="script/script.js"></script>
+    <title>Projet HTML NSI</title>
+</head>
+    <body>
+    <header>
+        <h1>Bonjour <span id="user"></span>!</h1>
+    </header>
+
+    <article><h2>Barre de navigation</h2>
+    <nav>
+        <ul>
+          <li><a href="#Accueil">Accueil</a></li>
+          <li><a href="#Projets">Projets</a></li>
+        </ul>
+    </nav>
+    </article>
+
+    <main>
+    <section>
+        <form name="f1" action="">
+            <p>Nom: <input id="nom" type="text"></p>
+            <p><input type="button" value="Afficher" onclick="affiche()"></p>
+        </form>
+        <img src="images/duck.png" alt="">
+    </section>
+    <section id="Principale">
+        <h2>Pages Externes</h2>
+        <a href="autrepage.html">Lien vers une autre page</a>
+        <h2>Quack de canard</h2>
+        <audio controls src="media/duckquacksfx.mp3"></audio>
+        <br><br><br><br>
+        <img src="media/duckdance.gif" alt="">
+        <h2>Javascript</h2>
+        <select id="choix" name="CouleurDuCanard" onchange="selection()">
+            <option value="black">Blanc</option>
+            <option value="green">Vert</option>
+            <option value="blue">Bleu</option>
+            <option value="purple">Violet</option>
+            <option value="red">Rouge</option>
+            <option value="orange">Orange</option>
+            <option value="gold">Jaune</option>
+        </select>
+        <br>
+        <h5>:3</h5>
+    </section>
+    </main>
+
+    <footer>
+        <a href="http://www.cordeliers.fr/"> Cliquez ici pour vous rendre sur le site du lycée</a>
+    </footer>
+    </body>
+</html>
