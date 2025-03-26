@@ -1,0 +1,70 @@
+html{
+    color: #373737;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: antiquewhite;
+}
+header{
+    text-align: left;
+    font-size: 200%;
+    margin-left: 250px;
+}
+
+article, form, footer, nav, #Principale{
+    background-color: rgb(255, 209, 150);
+    border-radius: 12px;
+    color: #373737;
+}
+main{
+    display: flex;
+}
+form:hover, footer:hover, input:hover{
+    background-color: rgb(231, 190, 136);
+}
+article nav{
+    width: 25%;
+    font-size: 125%;
+    margin: auto;
+}
+nav li{
+    display: inline;
+}
+input{
+    background-color: rgb(255, 209, 150);
+    border-radius: 15px;
+    color: #373737;
+    padding: 15px 32px;
+    margin: 4px 2px;
+}
+article h2{
+    flex: 4;
+    width: 75%;
+    margin: auto;
+    font-size: 150%;
+}
+form{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+footer{
+    width: 50%;
+    margin: auto;
+}
+#Principale{
+    flex: 3;
+    margin: 5%;
+    overflow-y:scroll;
+    height:540px;
+}
+#Principale h2{
+    background-color: rgb(175, 111, 26);
+    color: rgb(245, 206, 155);
+}
+#choix{
+    height: 15%;
+    width: 15%;
+    text-align: center;
+    border-radius: 25%;
+    font-weight: bold;
+}
